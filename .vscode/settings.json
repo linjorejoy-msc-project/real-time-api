@@ -1,0 +1,16 @@
+{
+  "python.pipenvPath": "api_venv\\Scripts\\python.exe",
+  "python.linting.enabled": false,
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.formatting.provider": "black"
+}
